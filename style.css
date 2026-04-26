@@ -667,3 +667,16 @@ a.contact-val:hover {
   background: linear-gradient(45deg, #00f5ff, #7a5cff);
   display: inline-block;
 }
+.project-card:hover {
+  transform: translateY(-10px);
+  transition: 0.3s;
+}
+.nav-links {
+  flex-direction: column;
+}
+.profile-img {
+  display: block;
+}
+.profile-img:not([src]) + .profile-placeholder {
+  display: flex;
+}
